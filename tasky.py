@@ -18,4 +18,3 @@ class Task(BaseModel):
         super().__init__(id = increment(), **data)
         #second **data u can seperate each datatype like with functions
         #super calls the constructor from the parent class and adding in our own 
-
